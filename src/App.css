@@ -11,15 +11,15 @@
 }
 
 .field{
-  width: 300px;
-  padding-bottom: 20px;
+  width: 400px;
+  padding-bottom: 40px;
 }
 
 .colour-border{
   border: 3px solid rgb(34, 0, 128);
-  padding: 10px;
+  padding: 20px;
 }
 
 .header{
-  padding: 10px;
+  padding: 20px;
 }
