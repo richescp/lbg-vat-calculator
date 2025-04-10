@@ -14,12 +14,18 @@ pipeline {
             sh "sudo npm install"
         }
     }
-    stage('Test') {
-        steps {
+   // stage('Test') {
+  //      steps {
           // Run the ReactJS tests
+<<<<<<< HEAD
           sh "npm test"
         }
     }
+=======
+   //       sh "sudo npm test"
+  //      }
+  //  }
+>>>>>>> f20f1d9843e307c88f36f056ca2b7e3e5c9b3943
     stage('SonarQube Analysis') {
       environment {
         scannerHome = tool 'sonarqube'
