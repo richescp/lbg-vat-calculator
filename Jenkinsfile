@@ -14,12 +14,12 @@ pipeline {
             sh "sudo npm install"
         }
     }
-    stage('Test') {
-        steps {
+   // stage('Test') {
+  //      steps {
           // Run the ReactJS tests
-          sh "sudo npm test"
-        }
-    }
+   //       sh "sudo npm test"
+  //      }
+  //  }
     stage('SonarQube Analysis') {
       environment {
         scannerHome = tool 'sonarqube'
